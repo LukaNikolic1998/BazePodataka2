@@ -1,0 +1,18 @@
+﻿<Window x:Class="Gui.StripKategorija"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gui"
+        mc:Ignorable="d"
+        Title="StripKategorija" Height="350" Width="200">
+    <Grid>
+        <Label Content="Opcija:" Height="25" Width="75" Margin="26,23,91,271"/>
+        <Label Content="Kategorija:" Height="25" Width="75" Margin="26,53,91,241"/>
+        <ComboBox Name="cbOp" Height="25" Width="75" Margin="107,23,10,271"/>
+        <ComboBox Name="cbKat" Height="25" Width="75" Margin="107,53,10,241"/>
+        <Button Name="btnFind" Content="Find" Height="25" Width="75" Margin="107,83,10,211" Click="BtnFind_Click"/>
+        <Label Content="Stripovi:" Height="25" Width="75" Margin="26,108,91,186"/>
+        <Label Name="labelStripovi" Content="" Margin="26,140,11,10"/>
+    </Grid>
+</Window>

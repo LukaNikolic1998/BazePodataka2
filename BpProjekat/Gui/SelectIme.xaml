@@ -1,0 +1,16 @@
+﻿<Window x:Class="Gui.SelectIme"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gui"
+        mc:Ignorable="d"
+        Title="Select Ime" Height="200" Width="250">
+    <Grid>
+        <Label Content="Indeksi:" Height="25" Width="100" Margin="40,27,102,117"/>
+        <Label Content="Ime:" Height="25" Margin="40,75,133,69"/>
+        <ComboBox Name="cbImeF" Height="25" Width="100" Margin="132,27,10,117"/>
+        <Label Name="labelIme" Content="" Height="25" Width="100" Margin="132,75,10,69"/>
+        <Button Name="btnSelect" Height="25" Width="75" Content="Select" Margin="143,134,24,10" Click="BtnSelect_Click"/>
+    </Grid>
+</Window>
